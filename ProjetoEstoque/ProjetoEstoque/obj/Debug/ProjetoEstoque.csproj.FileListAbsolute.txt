@@ -1,0 +1,15 @@
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\bin\Debug\ProjetoEstoque.exe.config
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\bin\Debug\ProjetoEstoque.exe
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\bin\Debug\ProjetoEstoque.pdb
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.csproj.AssemblyReference.cache
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.Form1.resources
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.Frm_Cadastro.resources
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.Properties.Resources.resources
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.csproj.GenerateResource.cache
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.csproj.CoreCompileInputs.cache
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.exe
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.pdb
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\bin\Debug\pecas11.accdb
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.frm_estoque.resources
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.frm_CadastroUsers.resources
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.frm_controle.resources
