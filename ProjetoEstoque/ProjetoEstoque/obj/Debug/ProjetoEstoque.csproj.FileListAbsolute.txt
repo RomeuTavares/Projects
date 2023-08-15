@@ -13,3 +13,4 @@ C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\bin\Deb
 C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.frm_estoque.resources
 C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.frm_CadastroUsers.resources
 C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.frm_controle.resources
+C:\Users\rrome\Área de Trabalho\faculdade\ProjetoEstoque\ProjetoEstoque\obj\Debug\ProjetoEstoque.frm_VerUser.resources

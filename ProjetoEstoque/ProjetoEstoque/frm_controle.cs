@@ -36,5 +36,11 @@ namespace ProjetoEstoque
             cadastroUser.ShowDialog();
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            frm_VerUser ver = new frm_VerUser();
+            ver.ShowDialog();
+        }
     }
 }

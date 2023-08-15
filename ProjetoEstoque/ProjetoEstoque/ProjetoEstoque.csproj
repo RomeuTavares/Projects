@@ -76,10 +76,21 @@
     <Compile Include="frm_estoque.Designer.cs">
       <DependentUpon>frm_estoque.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_VerUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_VerUser.Designer.cs">
+      <DependentUpon>frm_VerUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="pecas11DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>pecas11DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pecas11DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pecas11DataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -97,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_estoque.resx">
       <DependentUpon>frm_estoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_VerUser.resx">
+      <DependentUpon>frm_VerUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -117,6 +131,17 @@
     </None>
     <None Include="pecas11DataSet.xss">
       <DependentUpon>pecas11DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pecas11DataSet1.xsc">
+      <DependentUpon>pecas11DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="pecas11DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pecas11DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pecas11DataSet1.xss">
+      <DependentUpon>pecas11DataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

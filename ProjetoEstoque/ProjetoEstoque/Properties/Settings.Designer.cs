@@ -45,5 +45,16 @@ namespace ProjetoEstoque.Properties {
                 this["Conexao"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\pecas11.accdb;Persi" +
+            "st Security Info=True")]
+        public string pecas11ConnectionString1 {
+            get {
+                return ((string)(this["pecas11ConnectionString1"]));
+            }
+        }
     }
 }

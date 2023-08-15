@@ -43,47 +43,44 @@ namespace ProjetoEstoque
                 String StringCon = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source = C:/Users/rrome/Área de Trabalho/faculdade/ProjetoEstoque/ProjetoEstoque/pecas11.accdb";
                 OleDbConnection banco = new OleDbConnection(StringCon);
                 banco.Open();
-                string sql;
+                
                 string sql2;
                 
-                sql = "SELECT * FROM User (Usuario,Senha) Values";
+                //sql = "SELECT * FROM User (Usuario,Senha) Values";
                 //sql2.CommandText = "SELECT Usuario, Senha FROM User";
-                sql2 = "SELECT * FROM [User]";
+                sql2 = "SELECT * FROM [User] WHERE Usuario ='" + textBox2.Text + "' and Senha ='" + textBox1.Text+ "'";
                 OleDbCommand command = new OleDbCommand(sql2, banco);
                 using (OleDbDataReader reader = command.ExecuteReader())
                 {
-                    Console.WriteLine("Dados");
-                    while (reader.Read()){
-                        Global.usuario = reader["Usuario"].ToString();
-                        Global.senha = reader["Senha"].ToString();
-                        Console.WriteLine(reader["Usuario"].ToString());
-                        Console.WriteLine(reader["Senha"].ToString());
-                        Console.WriteLine(Global.usuario);
-                        Console.WriteLine(Global.senha);
-                    }
-                }
-           
-
-
-                Console.WriteLine(sql);
-               // sql += "('" + textBox1.Text + "', '" + textBox2.Text + "')";
-               
-  
-
-
-                OleDbCommand cmd = new OleDbCommand(sql, banco);
-                //int v = cmd.ExecuteNonQuery();
-
-                banco.Close();
-
-                if  (textBox2.Text == Global.usuario && Global.senha == textBox1.Text ) 
-                        {
+                    if (reader.Read())
+                    {
+                        string permissao;
+                        permissao = Convert.ToString(reader["Permissao"]);
+                        Console.WriteLine(permissao);
+                        if (permissao == "Administrador")
+                            {
                             frm_controle controle = new frm_controle();
                             controle.ShowDialog();
                         }
-                        else {
-                            MessageBox.Show("Credenciais incorretas!!!");
+                        else
+                        {
+                            frm_estoque estoque = new frm_estoque();
+                            estoque.ShowDialog();
                         }
+                        
+                    }
+                    else
+                    {
+                         MessageBox.Show("Credenciais incorretas!!!");
+                        
+                    }
+
+                }
+                   banco.Close();
+
+           
+
+             
                     }
                 }
                

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -46,8 +47,17 @@ namespace ProjetoEstoque
 
         private void frm_estoque_Load(object sender, EventArgs e)
         {
-            // TODO: esta linha de código carrega dados na tabela 'pecas11DataSet.Pecas'. Você pode movê-la ou removê-la conforme necessário.
-            this.pecasTableAdapter.Fill(this.pecas11DataSet.Pecas);
+            String StringCon = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source = C:/Users/rrome/Área de Trabalho/faculdade/ProjetoEstoque/ProjetoEstoque/pecas11.accdb";
+            OleDbConnection banco = new OleDbConnection(StringCon);
+            banco.Open();
+            string sql = "SELECT * FROM [Pecas]";
+            OleDbDataAdapter grid = new OleDbDataAdapter(sql, banco);
+            DataSet ds = new DataSet();
+            grid.Fill(ds, "Pecas");
+            banco.Close();
+
+            dataGridView1.DataSource = ds;
+            dataGridView1.DataMember = "Pecas";
 
         }
 
